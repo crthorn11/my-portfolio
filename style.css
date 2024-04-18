@@ -1,9 +1,12 @@
 * {
+  /* Reset default box model and set background color */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: rgb(52, 51, 51);
 }
+
+/* Set font styles for list items, links, and buttons */
 
 li,a, button {
   font-family: sans-serif;
@@ -12,6 +15,8 @@ li,a, button {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
+
+/* Style the header section */
 
 header {
   display: flex;
@@ -23,26 +28,38 @@ header {
   padding-left: 20px;
 }
 
+/* Add cursor pointer to logo */
+
 .logo{
   cursor: pointer;
 }
 
+/* Style navigation links */
+
 .nav_links {
   list-style: none;
 }
+
+/* Style individual navigation link items */
 
 .nav_links li {
   display: inline-block;
   padding: 0px 20px;
 }
 
+/* Add transition effect to navigation links */
+
 .nav_links li a {
   transition: all 0.3s ease 0s;
 }
 
+/* Set color for navigation links */
+
 .nav_links {
   color: aqua;
 }
+
+/* Style buttons */
 
 button {
   padding: 9px 25px;
@@ -53,11 +70,16 @@ button {
   transition: all 0.3s ease 0s;
 }
 
+/* Hover effect for buttons */
+
 button:hover {
   background-color: rgba(0, 255, 255, 0.89);
 }
 
+/* Styling for the text in the paragraphs */
+
 p {
+  text-indent: 5%;
   position: absolute;
   left: 400px;
   padding-top: 125px;
@@ -66,11 +88,21 @@ p {
   padding-left: 200px;
 }
 
+/* Style image with class 'img-musk' */
+
 .img-musk {
   width: 300px;
   padding-left: 40px;
   padding-top: 40px;
 }
+
+.img-hor {
+  width: 1100px;
+  padding-left: px;
+  padding-top: px;
+}
+
+/* Additional styling for header */
 
 header {
   border-style: solid;
@@ -78,6 +110,8 @@ header {
   border-color: rgb(0, 0, 0);
   border-bottom: 20px;
 }
+
+/* Modify header border and color */
 
 header {
   border-bottom: 20px solid;
